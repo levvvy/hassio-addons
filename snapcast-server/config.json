@@ -1,0 +1,15 @@
+{
+  "name": "Snapcast Server",
+  "version": "0.1.0",
+  "slug": "snapcast-server",
+  "description": "Snapcast Server integration for Home Assistant",
+  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+  "startup": "services",
+  "boot": "auto",
+  "options": {
+    "port": 1704
+  },
+  "schema": {
+    "port": "integer"
+  }
+}
